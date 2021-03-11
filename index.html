@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>EnLink</title>
+  <link rel="stylesheet" href="css/bootstrap-grid.css" />
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body id="blur">
+  <!-- HEADER -->
+<header class="header">
+    <div class="container">
+        <div class="header__body">
+            <div class="header__left">
+                <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+            <div class="languages">
+                <a href="#" class="lang">
+                    <img src="images/icon/russia.jpg" alt="">
+                </a>
+                <a href="#" class="lang">
+                    <img src="images/icon/ukraine.jpg" alt="">
+                </a>
+                <a href="#" class="lang">
+                    <img src="images/icon/united-states.jpg" alt="">
+                </a>
+            </div>
+            </div>
+            <div class="mobile-languages">
+                <img src="images/icon/russia.jpg" alt="">
+            </div>
+            <div class="money">
+                <img src="images/icon/money.png" alt="">
+            </div>
+            <div class="sign">
+                <a class="js-button-campaign-registration" href="#">Регистрация</a>
+                <a class="js-button-campaign" href="#"><img src="images/icon/user.png" alt=""><p>Войти</p></a>
+            </div>
+            <div class="burger__menu">
+                <img src="images/icon/menu.png" alt="">
+            </div>
+        </div>
+        <div class="header__menu">
+            <ul class="menu__list">
+                <li class="item">
+                    <a href="" class="link">
+                        <div class="icon">
+                            <img src="images/icon/dice.png" alt="">
+                        </div>
+                        <p class="text">
+                            Все игры
+                        </p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="link">
+                        <div class="icon">
+                            <img src="images/icon/popularity.png" alt="">
+                        </div>
+                        <p class="text">
+                            Популярные
+                        </p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="link">
+                        <div class="icon">
+                            <img src="images/icon/bonus.png" alt="">
+                        </div>
+                        <p class="text">
+                            Бонусы
+                        </p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="link">
+                        <div class="icon">
+                            <img src="images/icon/diamond.png" alt="">
+                        </div>
+                        <p class="text">
+                            Jackpots
+                        </p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="link">
+                        <div class="icon">
+                            <img src="images/icon/contact.png" alt="">
+                        </div>
+                        <p class="text">
+                            Контакты
+                        </p>
+                    </a>
+                </li>
+                <div class="close-block">
+                    <img class="logo" src="images/logo.png">
+                    <img class="close" src="images/icon/menu.png"> 
+                </div>
+            </ul>
+        </div>
+    </div>
+</header>
+<!-- Login -->
+<div class="overlay js-overlay-campaign">
+    <div class="popup js-popup-campaign">
+        <div class="close-popup js-close-campaign"></div>
+        <div class="image">
+            <img src="images/lohin.jpg" alt="">
+        </div>
+        <div class="form-login">
+            <div class="welcome">WELCOME</div>
+            <form>
+                <h3 class="text">Login your accaunt</h3>
+                <input type="text" placeholder="Username" class="username"><br>
+                <input type="password" placeholder="Password" class="password"><br>
+                <button type="submit" class="submit"><p>Login</p></button><br>
+                <a class="create js-button-campaign-registration">Create Account</a><br>
+                
+            </form>
+            <a href="#" class="forget">Forgot Passworld?</a>
+        </div>
+    </div>
+</div>
+<!-- Registration -->
+<div class="overlay-registration js-overlay-campaign-registration">
+    <div class="popup-registration js-popup-campaign-registration">
+        <div class="close-popup-registration js-close-campaign-registration"></div>
+        <div class="image">
+            <h2 class="title">BONUS</h2>
+            <div class="deposit">
+                On the first deposit 75%
+            </div>
+            <div class="image__relaese">
+                <img src="images/image-relase.png" alt="">
+            </div>
+            <form class="prome__code-block">
+                <input type="text" class="code" placeholder="Promo code">
+                <button><img src="images/icon/arrow-right.svg.png" alt=""></button>
+            </form>
+        </div>
+        <div class="form-login">
+            <div class="welcome">WELCOME</div>
+            <form>
+                <h3 class="text">Registration</h3>
+                <input type="text" placeholder="Username" class="username"><br>
+                <input type="password" placeholder="Password" class="password"><br>
+                <input type="email" placeholder="Mail" class="mail"><br>
+                <div class="prome__code-block">
+                    <input type="text" class="code" placeholder="Promo code">
+                    <button><img src="images/icon/arrow-right.svg.png" alt=""></button>
+                </div>
+                <div class="steps">
+                    <div class="step active"><p>1</p></div>
+                    <div class="step"><p>2</p></div>
+                    <div class="step"><p>3</p></div>
+                </div>
+                <button type="submit" class="submit"><p>Registration</p></button><br>
+            </form>
+        </div>
+        
+    </div>
+</div>
+
+
+  <!-- Banner -->
+  <section class="banner">
+    <div class="container">
+      <div class="banner-block">
+        <img src="images/banner.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- Slots -->
+  <div class="slots">
+    <div class="container">
+      <div class="pulls">
+        <a class="pull">
+          <div class="icon">
+            <img src="images/icon/слоты иконка.png" alt="">
+          </div>
+          <p class="text">Новые слоты</p>
+        </a>
+        <a class="pull jackpot">
+          <p class="text">JACKPOT POOL</p>
+          <p class="price">
+            446,387.99
+          </p>
+        </a>
+        <a class="pull">
+          <div class="icon">
+            <img src="images/icon/famous.png" alt="">
+          </div>
+          <p class="text">Популярные слоты</p>
+        </a>
+      </div>
+      <div class="slides">
+        <a href="#" class="slide">
+          <div class="icon">
+            <img src="images/icon/слоты иконка.png" alt="">
+          </div>
+          <p class="text">
+            Slots
+          </p>
+        </a>
+        <a href="#" class="slide">
+          <div class="icon">
+            <img src="images/icon/live.png" alt="">
+          </div>
+          <p class="text">
+            Live Casino
+          </p>
+        </a>
+        <a href="#" class="slide">
+          <div class="icon">
+            <img src="images/icon/card-game.png" alt="">
+          </div>
+          <p class="text">
+            Live Poker
+          </p>
+        </a>
+        <a href="#" class="slide">
+          <div class="icon">
+            <img src="images/icon/poker-table.png" alt="">
+          </div>
+          <p class="text">
+            Столы
+          </p>
+        </a>
+        <a href="#" class="slide">
+          <div class="icon">
+            <img src="images/icon/new.png" alt="">
+          </div>
+          <p class="text">
+            New
+          </p>
+        </a>
+        <a href="#" class="slide">
+          <div class="icon">
+            <img src="images/icon/diamond.png" alt="">
+          </div>
+          <p class="text">
+            Jackpots
+          </p>
+        </a>
+        <a href="#" class="slide">
+          <div class="icon">
+            <img src="images/icon/popularity.png" alt="">
+          </div>
+          <p class="text">
+            Popular
+          </p>
+        </a>
+      </div>
+      <form class="form">
+        <div class="search">
+          <input type="text" placeholder="Поиск игры">
+          <button type="submit"><img src="images/icon/magnifier (1).png" alt=""></button>
+        </div>
+      </form>
+      <div class="slots-wrapper">
+        <div class="slot">
+          <div class="image">
+            <img src="images/comubus.png" alt="">
+          </div>
+          <div class="hover">
+            <a href="#" class="demo">Демо</a>
+            <a href="#" class="game">Играть</a>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="image">
+            <img src="images/2.png" alt="">
+          </div>
+          <div class="hover">
+            <a href="#" class="demo">Демо</a>
+            <a href="#" class="game">Играть</a>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="image">
+            <img src="images/slot-1.jpg" alt="">
+          </div>
+          <div class="hover">
+            <a href="#" class="demo">Демо</a>
+            <a href="#" class="game">Играть</a>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="image">
+            <img src="images/4.png" alt="">
+          </div>
+          <div class="hover">
+            <a href="#" class="demo">Демо</a>
+            <a href="#" class="game">Играть</a>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="image">
+            <img src="images/5.png" alt="">
+          </div>
+          <div class="hover">
+            <a href="#" class="demo">Демо</a>
+            <a href="#" class="game">Играть</a>
+          </div>
+        </div>
+        <!-- Большой Слот -->
+        <div class="slot big">
+          <div class="image">
+            <img src="images/6.png" alt="">
+          </div>
+          <div class="hover">
+            <a href="#" class="demo">Демо</a>
+            <a href="#" class="game">Играть</a>
+          </div>
+        </div>
+        <!-- Ряд слолов -->
+        <div class="slot-wrapper">
+          <div class="slot">
+            <div class="image">
+              <img src="images/7-2.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+          <div class="slot">
+            <div class="image">
+              <img src="images/7.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+          <div class="slot">
+            <div class="image">
+              <img src="images/9.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+          <div class="slot">
+            <div class="image">
+              <img src="images/10.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+          <div class="slot">
+            <div class="image">
+              <img src="images/11.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+          <div class="slot">
+            <div class="image">
+              <img src="images/12.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+        </div>
+        <!-- Ряд слолов -->
+        <div class="slot-wrapper">
+          <div class="slot">
+            <div class="image">
+              <img src="images/13.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+          <div class="slot">
+            <div class="image">
+              <img src="images/14.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+          <div class="slot">
+            <div class="image">
+              <img src="images/15.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+          <div class="slot">
+            <div class="image">
+              <img src="images/17.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+          <div class="slot">
+            <div class="image">
+              <img src="images/18.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+          <div class="slot">
+            <div class="image">
+              <img src="images/19.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+        </div>
+        <!-- Большой Слот -->
+        <div class="slot big">
+          <div class="image">
+            <img src="images/16.png" alt="">
+          </div>
+          <div class="hover">
+            <a href="#" class="demo">Демо</a>
+            <a href="#" class="game">Играть</a>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- Показать больше -->
+      <div class="view__all">
+        <div class="text">
+          Показать больше
+        </div>
+        <div class="icon">
+          <img src="images/icon/right.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Slots for week -->
+  <div class="slots-week">
+    <div class="container">
+      <div class="row">
+        <div class="col-right col-lg-6">
+          <div class="slot-week">
+            <div class="content">
+              <h3 class="title">Слот недели</h3>
+              <img src="images/Слой 14.jpg" alt="">
+              <a href="#" class="start">Играть сейчас</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-right col-lg-6 row">
+          <div class="col-xl-6 col-lg-12">
+            <div class="images">
+              <a href="#">
+                <img src="images/G.jpg" alt="">
+              </a>
+              <a href="#">
+                <img src="images/narda.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-12">
+            <div class="winners">
+              <div class="title">
+                Победители
+              </div>
+              <div class="winner">
+                <div class="image">
+                  <img src="images/Слой 49.jpg" alt="">
+                </div>
+                <div class="info">
+                  <p class="email">anto**********ad@gmail.com</p>
+                  <p class="price">10000 руб.</p>
+                  <p class="name">Название Слота</p>
+                </div>
+              </div>
+              <div class="winner">
+                <div class="image">
+                  <img src="images/Слой 49.jpg" alt="">
+                </div>
+                <div class="info">
+                  <p class="email">anto**********ad@gmail.com</p>
+                  <p class="price">10000 руб.</p>
+                  <p class="name">Название Слота</p>
+                </div>
+              </div>
+              <div class="winner">
+                <div class="image">
+                  <img src="images/Слой 49.jpg" alt="">
+                </div>
+                <div class="info">
+                  <p class="email">anto**********ad@gmail.com</p>
+                  <p class="price">10000 руб.</p>
+                  <p class="name">Название Слота</p>
+                </div>
+              </div>
+              <div class="winner">
+                <div class="image">
+                  <img src="images/Слой 49.jpg" alt="">
+                </div>
+                <div class="info">
+                  <p class="email">anto**********ad@gmail.com</p>
+                  <p class="price">10000 руб.</p>
+                  <p class="name">Название Слота</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- slot day -->
+  <div class="slots-day">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="title">
+            <div class="icon">
+              <img src="images/icon/popularity.png" alt="">
+            </div>
+            <div class="text">
+              Популярные слоты
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-6">
+          <div class="slot">
+            <div class="image">
+              <img src="images/2.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="slot">
+            <div class="image">
+              <img src="images/comubus.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="slot">
+            <div class="image">
+              <img src="images/9.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="slot">
+            <div class="image">
+              <img src="images/10.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- live -->
+  <div class="slots-day">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="title">
+            <div class="icon">
+              <img src="images/icon/live.png" alt="">
+            </div>
+            <div class="text">
+              Live Сasino games
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-6">
+          <div class="slot">
+            <div class="image">
+              <img src="images/17.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="slot">
+            <div class="image">
+              <img src="images/18.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="slot">
+            <div class="image">
+              <img src="images/19.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="slot">
+            <div class="image">
+              <img src="images/16.png" alt="">
+            </div>
+            <div class="hover">
+              <a href="#" class="demo">Демо</a>
+              <a href="#" class="game">Играть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- licence -->
+  <div class="licence">
+    <div class="container">
+      <div class="licence-content">
+        <div class="title">
+          Лицензирование и регулирование
+        </div>
+        <div class="text">
+          Официальный сайт клуба MrGcoin — лицензированная игровая площадка . Казино часто занимает лидирующие позиции в
+          списках лучших игровых клубов, которые являются надежными и ведут честную деятельность. Регистрируясь на
+          сайте, геймеры получают доступ к запуску автоматов на деньги и выигрышам, быстрым выплатам и
+          бонусам.Официальный сайт клуба MrGcoin — лицензированная игровая площадка . Казино часто занимает лидирующие
+          позиции в списках лучших игровых клубов, которые являются надежными и ведут честную деятельность.
+          Регистрируясь на сайте, геймеры получают доступ к запуску автоматов на деньги и выигрышам, быстрым выплатам и
+          бонусам.
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- slider -->
+  <section class="slider">
+    <div class="container">
+      <div class="owl-carousel owl-theme slider-list">
+        <div class="pay">
+          <img src="images/uiqw.png" alt="">
+        </div>
+        <div class="pay">
+          <img src="images/uiqw.png" alt="">
+        </div>
+        <div class="pay">
+          <img src="images/uiqw.png" alt="">
+        </div>
+        <div class="pay">
+          <img src="images/uiqw.png" alt="">
+        </div>
+        <div class="pay">
+          <img src="images/uiqw.png" alt="">
+        </div>
+        <div class="pay">
+          <img src="images/uiqw.png" alt="">
+        </div>
+        <div class="pay">
+          <img src="images/uiqw.png" alt="">
+        </div>
+        <div class="pay">
+          <img src="images/uiqw.png" alt="">
+        </div>
+        <div class="pay">
+          <img src="images/uiqw.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Providers -->
+  <div class="providers">
+    <div class="container">
+      <div class="providers-wrapper">
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/xa1.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/uiqw.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+        <div class="provider">
+          <img src="images/yytty.png" alt="">
+        </div>
+      </div>
+      <div class="security">
+        <div class="block">
+          <img src="images/lic.png" alt="">
+          
+        </div>
+        <div class="block">
+          <img src="images/plus-18-movie.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="container">
+        <div class="footer__body">
+            <nav class="menu">
+                <ul class="list">
+                    <h4 class="title">Игры</h4>
+                    <li><a href="#">Слоты</a></li>
+                    <li><a href="#">Live Казино</a></li>
+                    <li><a href="#">Новые</a></li>
+                    <li><a href="#">Популярные</a></li>
+                    <li><a href="#">Нагретые</a></li>
+                    <li><a href="#">Столы</a></li>
+                    <li><a href="#">Джекпоты</a></li>
+                    <li><a href="#">Видеопокеры</a></li>
+                    <li><a href="#">Другие</a></li>
+                </ul>
+                <ul class="list">
+                    <h4 class="title">Быстрые ссылки</h4>
+                    <li><a href="#">События
+                    </a></li>
+                    <li><a href="#">Турниры</a></li>
+                    <li><a href="#">Акции</a></li>
+                </ul>
+                <ul class="list">
+                    <h4 class="title">Информация</h4>
+                    <li><a href="#">Правила и условия</a></li>
+                    <li><a href="#">Защита информации</a></li>
+                    <li><a href="#">Ответственная игра</a></li>
+                    <li><a href="#">Защита от мошенничества</a></li>
+                    <li><a href="#">Бонусные условия</a></li>
+                    <li><a href="#">AML</a></li>
+                    <li><a href="#">Политика отмены платежей</a></li>
+                    <li><a href="#">Партнерам</a></li>
+                </ul>
+                <ul class="list">
+                    <h4 class="title">Справка</h4>
+                    <li><a href="#">Поддержка</a></li>
+                    <li><a href="#">Вопросы и ответы</a></li>
+                    <li><a href="#">О нас</a></li>
+                </ul>
+            </nav>
+            <div class="bottom">
+                <p class="copyright">
+                    MrGCOIN © 2021. All rights reserved. 
+                </p>
+                <div class="social">
+                    <a href="#"><img src="images/icon/facebook.png" alt=""></a>
+                    <a href="#"><img src="images/icon/facebook.png" alt=""></a>
+                    <a href="#"><img src="images/icon/facebook.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  <script src="js/jquery.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
